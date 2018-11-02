@@ -12,8 +12,8 @@ end
 
 def pop_with_args(array)
   new_array = []
-  2.times do 
     new_array.push(array.pop)
   end
+    new array.push(array.pop)
   return new_array
 end
