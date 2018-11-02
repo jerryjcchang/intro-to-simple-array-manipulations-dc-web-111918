@@ -25,7 +25,7 @@ end
 def shift_with_args(array)
   new_array = []
   2.times do
-    new_array.shift(array.shift)
+    new_array.pop(array.shift)
   end
   return new_array
 end
