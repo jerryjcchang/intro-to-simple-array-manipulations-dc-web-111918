@@ -13,7 +13,7 @@ end
 def pop_with_args(array)
   new_array = []
   2.times do 
-    new_array.shift(array.pop)
+    new_array.push(array.pop)
   end
   return new_array
 end
