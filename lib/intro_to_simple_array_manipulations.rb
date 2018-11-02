@@ -22,4 +22,9 @@ def using_shift(array)
   return array.shift
 end
 
-def 
+def shift_with_args(array)
+  new_array = []
+    new_array.shift(2)
+  end
+  return new_array
+end
