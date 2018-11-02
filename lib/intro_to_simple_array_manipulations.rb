@@ -11,7 +11,9 @@ def using_pop(array)
 end
 
 def pop_with_args(array)
+  new_array = []
   2.times do 
-    return array.pop
+    new_array << array.pop
   end
+  return new_array
 end
