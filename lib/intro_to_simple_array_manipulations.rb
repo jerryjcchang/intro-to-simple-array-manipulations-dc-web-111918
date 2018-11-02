@@ -13,4 +13,5 @@ end
 def pop_with_args(array)
   2.times do 
     return array.pop
+  end
 end
