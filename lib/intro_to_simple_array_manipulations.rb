@@ -24,7 +24,8 @@ end
 
 def shift_with_args(array)
   new_array = []
-    new_array.shift(2)
+  2.times do
+    new_array.unshift(array.shift)
   end
   return new_array
 end
